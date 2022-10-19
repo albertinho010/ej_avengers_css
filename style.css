@@ -1,0 +1,47 @@
+/* Importar una fuente desde goolge font  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Selectores de tipo etiqueta */
+
+body {                               /*TODO ESTO SE APLICARA A LA PAGINA HASTA QUE HAYA OTRA ETIQUETA*/
+    background-color:  #333533;    /*Cambiara todo el fondo de la página a este color*/
+    color: #A2D2FF;                /*Será el color de la letra de la página*/
+    font-size: 16px;                 /*Tamaño de la letra de la página*/
+    font-family: Georgia, ‘Times New Roman’, Times, serif;   /*Tipo de letra*/
+}
+
+h1{
+    color: #8338EC;                /*Será el color de la letra deL TITULO porque hace referencia la etiqueta*/
+    font-size: 32px;
+    font-family: "Verdana" sans-serif;
+}
+
+h3{
+    color: rgb(210, 224, 9);
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+h2{
+    color: #F15BB5;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+/* Para centrar imagen  */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/* Selectores de tipo clase  */
+
+. {
+    color: rgb(51, 46, 100);
+    font-size: 40px;
+}
+/* Selector de tipo id  */
+
+#imagen {
+    width: 200px;
+    border-radius: 8px;  /*para dejar redondeada la imagen*/
+}
